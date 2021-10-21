@@ -16,6 +16,7 @@
 		927A13B426E0AFB10053A2E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927A13B226E0AFB10053A2E3 /* LaunchScreen.storyboard */; };
 		927A13BF26E0AFB20053A2E3 /* HackingSwiftiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A13BE26E0AFB20053A2E3 /* HackingSwiftiOSTests.swift */; };
 		927A13CA26E0AFB20053A2E3 /* HackingSwiftiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A13C926E0AFB20053A2E3 /* HackingSwiftiOSUITests.swift */; };
+		92D9C8A927207A400052199F /* Day2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9C8A827207A400052199F /* Day2VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		927A13C526E0AFB20053A2E3 /* HackingSwiftiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackingSwiftiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		927A13C926E0AFB20053A2E3 /* HackingSwiftiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackingSwiftiOSUITests.swift; sourceTree = "<group>"; };
 		927A13CB26E0AFB20053A2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D9C8A827207A400052199F /* Day2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				927A13A426E0AFAD0053A2E3 /* AppDelegate.swift */,
 				927A13A626E0AFAD0053A2E3 /* SceneDelegate.swift */,
 				927A13A826E0AFAD0053A2E3 /* ViewController.swift */,
+				92D9C8A827207A400052199F /* Day2VC.swift */,
 				927A13AA26E0AFAD0053A2E3 /* Main.storyboard */,
 				927A13B026E0AFB10053A2E3 /* Assets.xcassets */,
 				927A13B226E0AFB10053A2E3 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				927A13A926E0AFAD0053A2E3 /* ViewController.swift in Sources */,
 				927A13AF26E0AFAD0053A2E3 /* HackingSwiftiOS.xcdatamodeld in Sources */,
 				927A13A526E0AFAD0053A2E3 /* AppDelegate.swift in Sources */,
+				92D9C8A927207A400052199F /* Day2VC.swift in Sources */,
 				927A13A726E0AFAD0053A2E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

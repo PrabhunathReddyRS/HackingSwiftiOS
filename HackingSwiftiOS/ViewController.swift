@@ -8,7 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+   
     
+    enum results {
+        case failure
+        case sucess
+    }
+    
+  
+    enum Associate {
+        case talking
+        case listing(song:String)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         print("prabhu")
@@ -24,6 +35,8 @@ class ViewController: UIViewController {
         combinationOfCollectionTypes()
         
         creatDictionaries()
+        
+        creatEmptyCollections()
         // Do any additional setup after loading the view.
     }
     
@@ -138,6 +151,51 @@ class ViewController: UIViewController {
         let favouriteIcrCream = ["paul" : "chacolate", "john" : "carberry"]
         
         print(favouriteIcrCream["prabhu", default : "Unknown"])
+        
     }
+    
+    
+    func creatEmptyCollections()
+    {
+        //=== Dics
+        var dicData = [String : Int] ()
+        
+        dicData["Age"] = 30
+        
+        var dicData2  = Dictionary <String, String> ()
+        dicData2 = ["name" : "Prabhu"]
+        
+        let dicDat3 = Dictionary <String, Int> ()
+        
+        
+        print(dicData["Age"] ?? 0)
+        
+        print(dicData2["name"] ?? 0)
+      
+        //Arrays
+        
+        var array = [Int] ()
+         array = [1,2,3]
+        
+        var array2 = Array<Int> ()
+        
+        //Set
+        
+        var numbers = Set<String> ()
+        
+        
+        let result = results.failure
+        let songname = Associate.listing(song: "Ram")
+        print("result\(result)")
+        print("songname\(songname)")
+
+       // https://codewithchris.com/swift-enum/
+        1
+//        if result == "failure"
+//        {
+//            print("fail")
+//        }
+    }
+
 }
 
