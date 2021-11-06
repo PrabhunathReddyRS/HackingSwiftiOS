@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9262DBED2729BDD500BA9392 /* Day3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262DBEC2729BDD500BA9392 /* Day3VC.swift */; };
+		926732A12732E27B008D367C /* Day4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926732A02732E27B008D367C /* Day4VC.swift */; };
 		927A13A526E0AFAD0053A2E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A13A426E0AFAD0053A2E3 /* AppDelegate.swift */; };
 		927A13A726E0AFAD0053A2E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A13A626E0AFAD0053A2E3 /* SceneDelegate.swift */; };
 		927A13A926E0AFAD0053A2E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A13A826E0AFAD0053A2E3 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9262DBEC2729BDD500BA9392 /* Day3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3VC.swift; sourceTree = "<group>"; };
+		926732A02732E27B008D367C /* Day4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4VC.swift; sourceTree = "<group>"; };
 		927A13A126E0AFAD0053A2E3 /* HackingSwiftiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackingSwiftiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927A13A426E0AFAD0053A2E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		927A13A626E0AFAD0053A2E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				927A13A626E0AFAD0053A2E3 /* SceneDelegate.swift */,
 				927A13A826E0AFAD0053A2E3 /* ViewController.swift */,
 				92D9C8A827207A400052199F /* Day2VC.swift */,
+				9262DBEC2729BDD500BA9392 /* Day3VC.swift */,
+				926732A02732E27B008D367C /* Day4VC.swift */,
 				927A13AA26E0AFAD0053A2E3 /* Main.storyboard */,
 				927A13B026E0AFB10053A2E3 /* Assets.xcassets */,
 				927A13B226E0AFB10053A2E3 /* LaunchScreen.storyboard */,
@@ -265,8 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				927A13A926E0AFAD0053A2E3 /* ViewController.swift in Sources */,
+				9262DBED2729BDD500BA9392 /* Day3VC.swift in Sources */,
 				927A13AF26E0AFAD0053A2E3 /* HackingSwiftiOS.xcdatamodeld in Sources */,
 				927A13A526E0AFAD0053A2E3 /* AppDelegate.swift in Sources */,
+				926732A12732E27B008D367C /* Day4VC.swift in Sources */,
 				92D9C8A927207A400052199F /* Day2VC.swift in Sources */,
 				927A13A726E0AFAD0053A2E3 /* SceneDelegate.swift in Sources */,
 			);
