@@ -8,7 +8,7 @@
 import UIKit
 
 class Day4VC: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,6 +32,30 @@ class Day4VC: UIViewController {
         defaultParameters("sravani")
         
         defaultParameters("eddy",value: false)
+        
+        derivable()
+        
+       // checkPassword("pas")
+        
+        do {
+            try checkPassword("password")
+           // let he = checkPassword("")
+        
+            print("That password is good!")
+        } catch {
+            print("You can't use that password.")
+        }
+        
+        do{
+            try checkMyname("prabhu")
+            let he = PasswordError.obvious
+            
+            print("he--->\(he)")
+            print("right name")
+           
+        }catch{
+            print("wrongname")
+        }
     }
 
     func basic()
@@ -48,6 +72,7 @@ class Day4VC: UIViewController {
     {
         return 2
     }
+    
     func returnValues() -> [String]
     {
         ["name","color"]
@@ -73,5 +98,34 @@ class Day4VC: UIViewController {
             print("false")
 
         }
+    }
+    
+    func checkPassword(_ password: String) throws -> Bool {
+         if password == "password" {
+             
+             print(PasswordError.obvious)
+             throw  PasswordError.obvious
+        }
+
+        return true
+    }
+    
+    enum PasswordError: Error {
+        case obvious
+    }
+    
+    func checkMyname(_ name:String) throws -> Bool {
+        
+        if name == "prabhu"
+        {
+            print("\(name)")
+            return true
+        }
+        
+        throw PasswordError.obvious
+    }
+    
+    let derivable = {
+        print("derivable--->")
     }
 }
